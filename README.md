@@ -38,7 +38,7 @@ python train_model.py --net resnet32 --epochs 100 --path 'path/to/model.h5'
 <br/>
 
 #file content:#
-
+-------------------------
 utils - helper and utility functions
 <br/>
 <br/>
