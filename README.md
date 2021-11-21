@@ -8,12 +8,15 @@ pip install -r requirements.txt
 + --mode
 + --path
 <br/>
+
 copy to command line this code
 
 <br/>
-<br/>
+
 ```
+
 python Experiments.py --net VGG --mode PHdim --path path/to/model.h5
+
 ```
 
 
