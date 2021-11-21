@@ -3,8 +3,6 @@
 pip install -r requirements.txt  
 <br/>
 ### Quick start
-
-<br/>
 ------------------------------------------
 <br/>
 file content:
