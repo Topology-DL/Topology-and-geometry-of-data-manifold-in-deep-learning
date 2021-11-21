@@ -42,7 +42,6 @@ to train model
 python train_model.py --net resnet32 --epochs 100 --path 'path/to/model.h5'
 ```
 
-
 ------------------------------------------
 <br/>
 
