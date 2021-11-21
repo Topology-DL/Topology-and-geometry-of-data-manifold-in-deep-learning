@@ -50,7 +50,7 @@ CNN_architectures - architectures of convolutional neural networks for experimen
 <br/>
 Resnet_train - training resnet with different hyperparameters to predict generalizing ability through topological descriptors
 <br/>
-<br/>
+
 ------------------------------------------
 <br/>
 Changing the topological descriptors and PHdim inside ResNet  
