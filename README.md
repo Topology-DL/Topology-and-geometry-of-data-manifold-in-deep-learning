@@ -1,6 +1,12 @@
 # Topology-and-geometry-of-data-manifold-in-deep-learning
 <br/>
+
+to install libraris
+
+```
 pip install -r requirements.txt  
+```
+
 <br/>
 
 ### Quick start ###
