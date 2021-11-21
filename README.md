@@ -7,7 +7,7 @@ pip install -r requirements.txt
 + Проводник
 + Полупроводник
 + Диэлектрик
-    
+<br/>
     python Experiments.py --net VGG --mode PHdim --path 'path/to/model.h5'
 <br/>
 ------------------------------------------
