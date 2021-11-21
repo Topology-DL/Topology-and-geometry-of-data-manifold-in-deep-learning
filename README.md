@@ -20,17 +20,17 @@ copy to command line this code
 <br/>
 
 ```
-python Experiments.py --net VGG --mode PHdim --path path/to/model.h5
+python Experiments.py --net VGG --mode PHdim --path 'path/to/model.h5'
 ```
 
 <br/>
 
-copy to command line this code
+to train model
 
 <br/>
 
 ```
-python train_model.py --net resnet32
+python train_model.py --net resnet32 --epochs 100 --path 'path/to/model.h5'
 ```
 
 
