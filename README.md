@@ -3,7 +3,8 @@
 pip install -r requirements.txt  
 
 <br/>
----
+------------------------------------------
+<br/>
 file content:
 <br/>
 <br/>
@@ -19,7 +20,7 @@ CNN_architectures - architectures of convolutional neural networks for experimen
 Resnet_train - training resnet with different hyperparameters to predict generalizing ability through topological descriptors
 <br/>
 <br/>
----
+------------------------------------------
 
 ![plot_4](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/Topology%20and%20PHdim.png)
 <br/>
