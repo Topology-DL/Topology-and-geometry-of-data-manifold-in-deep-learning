@@ -6,8 +6,6 @@ to install libraris
 ```
 pip install -r requirements.txt  
 ```
-
-
 ### Quick start experiments ###
 + --net Resnet or VGG
 + --mode Topology or PHdim
