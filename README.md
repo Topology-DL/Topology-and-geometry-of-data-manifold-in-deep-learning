@@ -10,9 +10,9 @@ pip install -r requirements.txt
 <br/>
 
 ### Quick start ###
-+ --net
-+ --mode
-+ --path
++ --net Resnet or VGG
++ --mode Topology or PHdim
++ --path 'path/to/tf_mode.h5'
 <br/>
 
 copy to command line this code
