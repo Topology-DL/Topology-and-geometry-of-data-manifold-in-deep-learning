@@ -22,6 +22,15 @@ copy to command line this code
 ```
 python Experiments.py --net VGG --mode PHdim --path 'path/to/model.h5'
 ```
+<br/>
+
+adversarial manifold 
+
+<br/>
+
+```
+python adversarial.py --path 'path/to/model.h5'
+```
 
 <br/>
 
