@@ -6,10 +6,9 @@ to install libraris
 ```
 pip install -r requirements.txt  
 ```
-
 <br/>
 
-### Quick start ###
+### Quick start experiments ###
 + --net Resnet or VGG
 + --mode Topology or PHdim
 + --path 'path/to/tf_mode.h5'
