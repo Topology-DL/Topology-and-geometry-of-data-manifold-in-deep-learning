@@ -9,6 +9,7 @@ pip install -r requirements.txt
 + Диэлектрик
 
   < python Experiments.py --net VGG --mode PHdim --path 'path/to/model.h5' >  
+  
 ------------------------------------------
 <br/>
 file content:
