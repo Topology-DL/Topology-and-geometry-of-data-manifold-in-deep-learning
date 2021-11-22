@@ -20,7 +20,7 @@ copy to command line this code
 python Experiments.py --net VGG --mode PHdim --path 'path/to/model.h5'
 ```
 <br/>
-Changing the topological descriptors and PHdim inside ResNet  
+the experimental results in -net VGG case will be approximately as follows 
 
 ![plot_7](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/VGG_example_topology.png)
 ![plot_8](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/VGG_example_phdim.png)
