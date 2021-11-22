@@ -35,6 +35,16 @@ adversarial manifold
 <br/>
 
 ```
+python generalization.py --path 'path/to/dir_models_dataset'
+```
+
+<br/>
+
+adversarial manifold 
+
+<br/>
+
+```
 python adversarial.py --path 'path/to/model.h5'
 ```
 
