@@ -20,7 +20,8 @@ copy to command line this code
 python Experiments.py --net VGG --mode PHdim --path 'path/to/model.h5'
 ```
 <br/>
-![plot_1](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/VGG_example_topology.png)
+Changing the topological descriptors and PHdim inside ResNet 
+![plot_7](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/VGG_example_topology.png)
 <br/>
 
 adversarial manifold 
