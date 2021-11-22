@@ -33,7 +33,11 @@ the experimental results in -net VGG case will be approximately as follows
 adversarial manifold 
 
 <br/>
+
 [models dataset](https://drive.google.com/file/d/1que2h8aQGg6sagtkEdm46vubhHIWDKPr/view?usp=sharing)
+
+<br/>
+
 ```
 python generalization.py --path 'path/to/dir_models_dataset'
 ```
