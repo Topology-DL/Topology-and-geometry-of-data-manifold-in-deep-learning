@@ -44,6 +44,13 @@ python generalization.py --path 'path/to/dir_models_dataset'
 
 <br/>
 
+![plot_9](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Generalization_experiment.png)
+
+
+<br/>
+
+<br/>
+
 adversarial manifold 
 
 <br/>
