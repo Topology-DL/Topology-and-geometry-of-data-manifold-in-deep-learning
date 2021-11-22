@@ -7,9 +7,9 @@ to install libraris
 pip install -r requirements.txt  
 ```
 ### Quick start experiments ###
-+ --net Resnet or VGG
-+ --mode Topology or PHdim
-+ --path 'path/to/tf_mode.h5'
++ --net: Resnet or VGG
++ --mode: Topology (Topological descriptors of data) or PHdim (Persistent Homological fractal dimension)
++ --path 'path/to/tensorflow_model_name.h5'
 <br/>
 
 copy to command line this code
