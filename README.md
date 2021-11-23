@@ -61,7 +61,7 @@ _______________________________________
 ```
 python Resnet_train.py --net resnet32 --epochs 100 --path 'path/to/model.h5'
 ```
-______________________________________
+------------------------------------------
 + --net: CNN arhitecture: Resnet, VGG, MobileNetV2, SEResnet
 + --epochs: epochs for training
 + --path: path to save tf_model.h5
@@ -84,7 +84,3 @@ Experiments - running experiments
 Adversarial - tracing the topology of adversarial manifold
 
 generalization - predicting the generalizing ability of neural networks using topological descriptors
-
-<br/>
-
-------------------------------------------
