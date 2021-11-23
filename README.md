@@ -36,10 +36,15 @@ Reproduction and verification of experiments on assessing the generalizing abili
 
 <br/>
 
+### Quick start experiments ###
 + --path: path to the folder where the model dataset was unzipped
 + --homdim: Dimension of homology group: 0 or 1
 
 <br/>
+
+### Predicting generalization of CNN experiments ###
++ --path: path to dataset dir
++ --homdim: Dimension of homology group: 0 or 1
 
 ```
 python generalization.py --path 'path/to/dir_models_dataset' --homdim 0
@@ -57,12 +62,16 @@ python generalization.py --path 'path/to/dir_models_dataset' --homdim 0
 
 <br/>
 
-adversarial manifold 
+
+### Adversarial manifold experiments ###
++ --data: path to dataset file_name.pkl
++ --model: path to model_name.h5'
++ --homdim: Dimension of homology group: 0 or 1
 
 <br/>
 
 ```
-python adversarial.py --path 'path/to/model.h5'
+python Adversarial.py --data 'path/to/Buildings_dataset.pkl' --model 'path/to/MobileNetv2_model.h5' --homdim 1
 ```
 
 <br/>
