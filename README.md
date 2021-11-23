@@ -59,7 +59,7 @@ _______________________________________
 + --epochs: epochs for training
 + --path: path to save resnet_model.h5
 ```
-python train_model.py --net resnet32 --epochs 100 --path 'path/to/model.h5'
+python Resnet_train.py --net resnet32 --epochs 100 --path 'path/to/model.h5'
 ```
 ______________________________________
 + --net: CNN arhitecture: Resnet, VGG, MobileNetV2, SEResnet
@@ -74,7 +74,7 @@ files content:
 utils - helper and utility functions
 <br/>
 <br/>
-Topological_descriptors_ID - implementation of methods for calculating the dimension and topological descriptors
+Topological_descriptors_ID - implementation of methods for calculating the PHdim and topological descriptors
 <br/>
 <br/>
 CNN_architectures - architectures of convolutional neural networks for experiments with tracking the dynamics of geometry and topology
@@ -82,7 +82,16 @@ CNN_architectures - architectures of convolutional neural networks for experimen
 <br/>
 Resnet_train - training resnet with different hyperparameters to predict generalizing ability through topological descriptors
 <br/>
-
+<br/>
+Experiments - running experiments
+<br/>
+<br/>
+Adversarial - tracing the topology of adversarial manifold
+<br/>
+<br/>
+generalization - predicting the generalizing ability of neural networks using topological descriptors
+<br/>
+<br/>
 ------------------------------------------
 <br/>
 Changing the topological descriptors and PHdim inside ResNet  
