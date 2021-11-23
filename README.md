@@ -45,8 +45,6 @@ python generalization.py --path 'path/to/dir_models_dataset' --homdim 0
 
 <br/>
 
-<br/>
-
 ![plot_9](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Generalization_experiment.png)
 ![plot_10](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Generalization_experiment1.png)
 
