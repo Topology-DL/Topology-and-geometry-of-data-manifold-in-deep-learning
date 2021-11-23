@@ -6,7 +6,7 @@ to install libraris
 ```
 pip install -r requirements.txt  
 ```
-### Quick start experiments ###
+### Quick start experiments: ###
 + --net: Resnet or VGG
 + --mode: Topology (Topological descriptors of data) or PHdim (Persistent Homological fractal dimension)
 + --path 'path/to/tensorflow_model_name.h5'
@@ -36,9 +36,7 @@ Reproduction and verification of experiments on assessing the generalizing abili
 
 <br/>
 
-<br/>
-
-### Predicting generalization of CNN experiments ###
+### Predicting generalization of CNN experiments: ###
 + --path: path to dataset dir
 + --homdim: Dimension of homology group: 0 or 1
 
@@ -59,7 +57,7 @@ python generalization.py --path 'path/to/dir_models_dataset' --homdim 0
 <br/>
 
 
-### Adversarial manifold experiments ###
+### Adversarial manifold experiments: ###
 + --data: path to dataset file_name.pkl
 + --model: path to model_name.h5'
 + --homdim: Dimension of homology group: 0 or 1
