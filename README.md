@@ -28,12 +28,9 @@ the experimental results in -net VGG case will be approximately as follows
 ![plot_7](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/VGG_example_topology.png)
 ![plot_8](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/VGG_example_phdim.png)
 
-
-
+------------------------------------------
 <br/>
-
 Reproduction and verification of experiments on assessing the generalizing ability of CNN by extracting topological descriptors of the training dataset manifold from the internal representation of neural networks. Download the [Resnet models dataset](https://drive.google.com/file/d/1que2h8aQGg6sagtkEdm46vubhHIWDKPr/view?usp=sharing) and copy the following code into the command line.
-
 <br/>
 
 ### Predicting generalization of CNN experiments: ###
@@ -51,12 +48,8 @@ python generalization.py --path 'path/to/dir_models_dataset' --homdim 0
 ![plot_9](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Generalization_experiment.png)
 ![plot_10](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Generalization_experiment1.png)
 
-
 <br/>
-
-<br/>
-
-
+------------------------------------------
 ### Adversarial manifold experiments: ###
 + --data: path to dataset file_name.pkl
 + --model: path to model_name.h5'
@@ -72,9 +65,8 @@ python Adversarial.py --data 'path/to/Buildings_dataset.pkl' --model 'path/to/Mo
 
 ![plot_11](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Adversarial_manifold_experiment.png)
 
-
 <br/>
-
+------------------------------------------
 to train Resnet model
 + --net: resnet32, resnet56, resnet110 
 + --epochs: epochs for training
