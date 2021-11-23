@@ -50,6 +50,8 @@ python generalization.py --path 'path/to/dir_models_dataset' --homdim 0
 
 <br/>
 ------------------------------------------
+<br/>
+
 ### Adversarial manifold experiments: ###
 + --data: path to dataset file_name.pkl
 + --model: path to model_name.h5'
@@ -66,7 +68,9 @@ python Adversarial.py --data 'path/to/Buildings_dataset.pkl' --model 'path/to/Mo
 ![plot_11](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Adversarial_manifold_experiment.png)
 
 ------------------------------------------
+
 <br/>
+
 to train Resnet model
 + --net: resnet32, resnet56, resnet110 
 + --epochs: epochs for training
