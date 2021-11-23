@@ -88,12 +88,3 @@ generalization - predicting the generalizing ability of neural networks using to
 <br/>
 
 ------------------------------------------
-<br/>
-Changing the topological descriptors and PHdim inside ResNet  
-
-![plot_5](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Changing_topo_and_PHdim.png)
-<br/>
-
-
-
-
