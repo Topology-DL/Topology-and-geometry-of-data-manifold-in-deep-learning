@@ -52,8 +52,6 @@ python generalization.py --path 'path/to/dir_models_dataset' --homdim 0
 
 ------------------------------------------
 
-<br/>
-
 ### Adversarial manifold experiments: ###
 + --data: path to dataset file_name.pkl
 + --model: path to model_name.h5'
