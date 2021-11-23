@@ -91,7 +91,7 @@ Adversarial - tracing the topology of adversarial manifold
 <br/>
 generalization - predicting the generalizing ability of neural networks using topological descriptors
 <br/>
-<br/>
+
 ------------------------------------------
 <br/>
 Changing the topological descriptors and PHdim inside ResNet  
