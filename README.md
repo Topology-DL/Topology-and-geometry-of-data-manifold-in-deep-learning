@@ -10,12 +10,10 @@ _______________________________________
 + --net: Resnet or VGG
 + --mode: Topology (Topological descriptors of data) or PHdim (Persistent Homological fractal dimension)
 + --path 'path/to/tensorflow_model_name.h5'
-<br/>
 
 ```
 python Experiments.py --net VGG --mode PHdim --path 'path/to/model.h5'
 ```
-<br/>
 
 the experimental results in -net VGG case will be approximately as follows 
 
