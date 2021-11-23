@@ -36,10 +36,6 @@ Reproduction and verification of experiments on assessing the generalizing abili
 
 <br/>
 
-### Quick start experiments ###
-+ --path: path to the folder where the model dataset was unzipped
-+ --homdim: Dimension of homology group: 0 or 1
-
 <br/>
 
 ### Predicting generalization of CNN experiments ###
