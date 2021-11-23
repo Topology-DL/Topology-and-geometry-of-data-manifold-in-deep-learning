@@ -65,8 +65,8 @@ python Adversarial.py --data 'path/to/Buildings_dataset.pkl' --model 'path/to/Mo
 
 ![plot_11](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Adversarial_manifold_experiment.png)
 
-<br/>
 ------------------------------------------
+<br/>
 to train Resnet model
 + --net: resnet32, resnet56, resnet110 
 + --epochs: epochs for training
