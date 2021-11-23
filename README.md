@@ -35,8 +35,10 @@ the experimental results in -net VGG case will be approximately as follows
 Reproduction and verification of experiments on assessing the generalizing ability of CNN by extracting topological descriptors of the training dataset manifold from the internal representation of neural networks. Download the [Resnet models dataset](https://drive.google.com/file/d/1que2h8aQGg6sagtkEdm46vubhHIWDKPr/view?usp=sharing) and copy the following code into the command line.
 
 <br/>
+
 + --path: path to the folder where the model dataset was unzipped
 + --homdim: Dimension of homology group: 0 or 1
+
 <br/>
 
 ```
