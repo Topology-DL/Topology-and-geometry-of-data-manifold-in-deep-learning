@@ -61,7 +61,7 @@ _______________________________________
 ```
 python Resnet_train.py --net resnet32 --epochs 100 --path 'path/to/model.h5'
 ```
-********************************dfgfd
+-------------------
 
 + --net: CNN arhitecture: Resnet, VGG, MobileNetV2, SEResnet
 + --epochs: epochs for training
