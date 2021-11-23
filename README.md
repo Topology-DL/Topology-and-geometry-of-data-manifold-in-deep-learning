@@ -1,10 +1,10 @@
 # Topology and geometry of data manifold in deep learning
 <br/>
 
-to install moduls
+to install the necessary modules copy to the command line
 
 ```
-pip install -r requirements.txt  
+pip install -r path/to/requirements.txt
 ```
 _______________________________________
 ### Quick start experiments: ###
