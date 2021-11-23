@@ -1,7 +1,7 @@
 # Topology and geometry of data manifold in deep learning
 <br/>
 
-to install libraris
+to install moduls
 
 ```
 pip install -r requirements.txt  
