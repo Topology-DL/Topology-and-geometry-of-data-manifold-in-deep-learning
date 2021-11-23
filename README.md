@@ -67,6 +67,11 @@ python adversarial.py --path 'path/to/model.h5'
 
 <br/>
 
+![plot_11](https://github.com/Topology-DL/Topology-and-geometry-of-data-manifold-in-deep-learning/blob/main/figures/Adversarial_manifold_experiment.png)
+
+
+<br/>
+
 to train Resnet model
 + --net: resnet32, resnet56, resnet110 
 + --epochs: epochs for training
