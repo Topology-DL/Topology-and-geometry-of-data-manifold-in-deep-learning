@@ -69,15 +69,22 @@ ______________________________________
 python CNN_architectures.py --net Resnet --epochs 50 --path 'Resnet_name.h5'
 ```
 _______________________________________
-# files content: #
+# Files content: #
 
 utils - helper and utility functions
+
 Topological_descriptors_ID - implementation of methods for calculating the PHdim and topological descriptors
+
 CNN_architectures - architectures of convolutional neural networks for experiments with tracking the dynamics of geometry and topology
+
 Resnet_train - training resnet with different hyperparameters to predict generalizing ability through topological descriptors
+
 Experiments - running experiments
+
 Adversarial - tracing the topology of adversarial manifold
+
 generalization - predicting the generalizing ability of neural networks using topological descriptors
+
 <br/>
 
 ------------------------------------------
