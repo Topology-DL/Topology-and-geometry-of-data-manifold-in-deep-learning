@@ -12,10 +12,6 @@ _______________________________________
 + --path 'path/to/tensorflow_model_name.h5'
 <br/>
 
-copy to command line this code
-
-<br/>
-
 ```
 python Experiments.py --net VGG --mode PHdim --path 'path/to/model.h5'
 ```
