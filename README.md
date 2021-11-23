@@ -58,15 +58,13 @@ _______________________________________
 + --net: Resnet32, Resnet56, Resnet110 
 + --epochs: epochs for training
 + --path: path to save resnet_model.h5
-
 ```
 python train_model.py --net resnet32 --epochs 100 --path 'path/to/model.h5'
 ```
-_______________________________________
+______________________________________
 + --net: CNN arhitecture: Resnet, VGG, MobileNetV2, SEResnet
 + --epochs: epochs for training
 + --path: path to save tf_model.h5
-
 ```
 python CNN_architectures.py --net Resnet --epochs 50 --path 'Resnet_name.h5'
 ```
