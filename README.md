@@ -70,7 +70,7 @@ python Adversarial.py --data 'path/to/Buildings_dataset.pkl' --model 'path/to/Mo
 <br/>
 
 to train Resnet model
-+ --net: resnet32, resnet56, resnet110 
++ --net: ResNet32, ResNet56, ResNet110 
 + --epochs: epochs for training
 + --path: path to save resnet_model.h5
 
