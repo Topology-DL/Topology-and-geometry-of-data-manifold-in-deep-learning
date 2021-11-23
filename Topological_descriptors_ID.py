@@ -4,7 +4,7 @@ from scipy.spatial import distance_matrix
 from sklearn import preprocessing
 from utils import load_Cifar10, plot_utils, load_model, Manifolds_embeddings
 from sklearn.linear_model import LinearRegression
-from random import sample
+import random
 from ripser import ripser #pip install ripser
 
 
@@ -126,16 +126,24 @@ def Experiment_VGG(model_path:"path to tf.model file", mode:'Topology or PHdim')
     tf_model = load_model(model_path)
     layers_ = [2, 5, 7, 10, 12, 15, 17, 20, 22, -2] # VGG: models_layers(tf_model, 'Conv')
     #plot_graph(topo_manifold_layers(tf_model, layers_), PHdim_manifold_layers(tf_model, layers_), 'VGG')
-    if mode == 'Topology': plot_utils(topo_manifold_layers(tf_model, layers_),  'Depth', 'Lifespans sum 0','VGG_'+mode)
-    elif mode == 'PHdim': plot_utils(PHdim_manifold_layers(tf_model, layers_), 'Depth', mode,  'VGG_'+mode)
+    if mode == 'Topology': 
+      print('computing topological descriptors')
+      plot_utils(topo_manifold_layers(tf_model, layers_),  'Depth', 'Lifespans sum 0','VGG_'+mode)
+    elif mode == 'PHdim': 
+      print('computing Persistent Homological fractal dimension')
+      plot_utils(PHdim_manifold_layers(tf_model, layers_), 'Depth', mode,  'VGG_'+mode)
     else: print('Error! mode must be "Topology" or "PHdim"')
 
 def Experiment_Resnet(model_path:"path to tf.model file", mode:'Topology or PHdim'):
     tf_model = load_model(model_path)
     layers_ = [16, 26, 38, 48, 60, 70, 82, 92, 104, -1] # Resnet: models_layers(tf_model, 'Add')
     #plot_graph(topo_manifold_layers(tf_model, layers_), PHdim_manifold_layers(tf_model, layers_), 'Resnet')
-    if mode == 'Topology': plot_utils(topo_manifold_layers(tf_model, layers_), 'Depth', 'Lifespans sum 0', 'Resnet_'+mode)
-    elif mode == 'PHdim': plot_utils(PHdim_manifold_layers(tf_model, layers_), 'Depth', mode, 'Resnet_'+mode)
+    if mode == 'Topology': 
+      print('computing topological descriptors')
+      plot_utils(topo_manifold_layers(tf_model, layers_), 'Depth', 'Lifespans sum 0', 'Resnet_'+mode)
+    elif mode == 'PHdim': 
+      print('computing Persistent Homological fractal dimension')
+      plot_utils(PHdim_manifold_layers(tf_model, layers_), 'Depth', mode, 'Resnet_'+mode)
     else: print('Error! mode must be "Topology" or "PHdim"')
 
 def Topo_models(layers_, model_list, X_data, y_data, hom_dim = 0, n_class = 1):
