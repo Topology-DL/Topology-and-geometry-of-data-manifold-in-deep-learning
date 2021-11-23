@@ -55,7 +55,7 @@ python Adversarial.py --data 'path/to/Buildings_dataset.pkl' --model 'path/to/Mo
 The [Large Crowdcollected Facial Anti-Spoofing Dataset](https://github.com/IDRnD/LCC_FASD) was used to estimate the Persistent Homological fractal dimension of spoofing attacks and faces.
 _______________________________________
 
-### Training ResNet models: ###
+### Training models: ###
 + --net: Resnet32, Resnet56, Resnet110 
 + --epochs: epochs for training
 + --path: path to save resnet_model.h5
@@ -66,6 +66,13 @@ _______________________________________
 python train_model.py --net resnet32 --epochs 100 --path 'path/to/model.h5'
 ```
 
++ --net: CNN arhitecture: Resnet, VGG, MobileNetV2, SEResnet
++ --epochs: epochs for training
++ --path: path to save tf_model.h5
+
+```
+python CNN_architectures.py --net Resnet --epochs 50 --path 'Resnet_name.h5'
+```
 _______________________________________
 files content:
 
