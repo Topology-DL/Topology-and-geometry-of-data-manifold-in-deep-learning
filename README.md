@@ -9,7 +9,7 @@ _______________________________________
 ### Quick start experiments: ###
 + --net: Resnet or VGG
 + --mode: Topology (Topological descriptors of data) or PHdim (Persistent Homological fractal dimension)
-+ --path 'path/to/tensorflow_model_name.h5'
++ --path: 'path/to/tensorflow_model_name.h5'
 
 ```
 python Experiments.py --net VGG --mode PHdim --path 'path/to/model.h5'
