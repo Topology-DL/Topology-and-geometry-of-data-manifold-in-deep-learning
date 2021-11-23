@@ -2,7 +2,6 @@
 <br/>
 
 to install the necessary modules copy to the command line
-
 ```
 pip install -r path/to/requirements.txt
 ```
