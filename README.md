@@ -37,6 +37,8 @@ Reproduction and verification of experiments on assessing the generalizing abili
 <br/>
 + --path: path to the folder where the model dataset was unzipped
 + --homdim: Dimension of homology group: 0 or 1
+<br/>
+
 ```
 python generalization.py --path 'path/to/dir_models_dataset' --homdim 0
 ```
