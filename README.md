@@ -58,7 +58,7 @@ _______________________________________
 <br/>
 
 to train Resnet model
-+ --net: ResNet32, ResNet56, ResNet110 
++ --net: Resnet32, Resnet56, Resnet110 
 + --epochs: epochs for training
 + --path: path to save resnet_model.h5
 
