@@ -7,6 +7,7 @@ pip install -r path/to/requirements.txt
 ```
 _______________________________________
 ### Quick start experiments: ###
+Basic experiments, tracking the transformation of topological descriptors and fractal homological dimension throughout the depth of convolutional neural networks. The calculations were performed using the [Ripser](https://github.com/scikit-tda/ripser.py) package for fast computation of persistent diagrams for TDA tasks.
 + --net: Resnet or VGG
 + --mode: Topology (Topological descriptors of data) or PHdim (Persistent Homological fractal dimension)
 + --path: 'path/to/tensorflow_model_name.h5'
