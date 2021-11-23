@@ -67,7 +67,10 @@ python adversarial.py --path 'path/to/model.h5'
 
 <br/>
 
-to train model
+to train Resnet model
++ --net: resnet32, resnet56, resnet110 
++ --epochs: epochs for training
++ --path: path to save resnet_model.h5
 
 <br/>
 
