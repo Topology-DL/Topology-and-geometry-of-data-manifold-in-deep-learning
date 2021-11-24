@@ -41,6 +41,9 @@ def models_layers(model, layer_name_):
       elist.append(e)
   print(elist+[-2, -1])
 
+def unistscount(layer_list: list) -> list:
+  return [round((e+1)/len(layer_list),2) for e,i in enumerate(layer_list)]
+
 def plot_utils(data, x_axis_name, y_axis_name, title):
   '''
   plot changing geometry or topology properties of data manifold
