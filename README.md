@@ -8,7 +8,7 @@ pip install -r path/to/requirements.txt
 _______________________________________
 ### Changing the topology across all layers of the CNNs: ###
 Basic experiments, tracking the transformation of topological descriptors (Lifespans) and Persistent Homological fractal dimension (PHdim) throughout the depth of convolutional neural networks. The calculations were performed using the [Ripser](https://github.com/scikit-tda/ripser.py) package for fast computation of persistent diagrams for TDA tasks.
-+ --net: [Resnet](https://drive.google.com/file/d/1iVyVUw1Qa1ScZUmWLgj0uUEyLJm6i8Vb/view?usp=sharing) or [VGG](https://drive.google.com/file/d/1qNnQbdztBPkvAjqLx9N6QazKCW3Y4nxV/view?usp=sharing)(download it from google drive)
++ --net: [Resnet](https://drive.google.com/file/d/1iVyVUw1Qa1ScZUmWLgj0uUEyLJm6i8Vb/view?usp=sharing) or [VGG](https://drive.google.com/file/d/1qNnQbdztBPkvAjqLx9N6QazKCW3Y4nxV/view?usp=sharing) (download it from google drive)
 + --mode: Topology (Topological descriptors of data) or PHdim (Persistent Homological fractal dimension)
 + --path: 'path/to/tensorflow_model_name.h5'
 
