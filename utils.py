@@ -47,7 +47,9 @@ def plot_utils(data, x_axis_name, y_axis_name, title):
   '''
   fig, ax = plt.subplots(figsize=(5, 5))
   layers = np.array(list(range(len(data))))
-  plt.plot(layers[:], data[:], 'o-', linewidth=5.5, markersize=5.0)
+  axisx = unistscount(layers)
+  ax.grid(which='major', color='#CCCCCC', linestyle='--', alpha=0.35)
+  plt.plot(axisx[:], data[:], '|-', linewidth=5.5, markersize=10.0)
   plt.ylabel(y_axis_name)
   plt.xlabel(x_axis_name)
   plt.title(title)
